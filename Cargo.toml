@@ -1,0 +1,10 @@
+[package]
+name = "rustboot"
+version = "0.1.0"
+authors = ["Christian Ternus <ternus@cternus.net>"]
+
+[dependencies]
+volatile = "0.1.0"
+
+[lib]
+crate-type = ["staticlib"]
